@@ -1,7 +1,8 @@
 import days
 
-y,m = list(map(int, input().split(' ')))
+y,m = list(map(int, input().split()))
+# default delimiter is ' '
 
-d = days.getDays(y,m)
+d = days.getDayCount(y,m)
 
 print(d)
